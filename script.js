@@ -98,5 +98,5 @@ window.designCallback = function(data) {
     src.appendChild(img);
 }
 window.designCloseCallback = function() {
-    alert("designCloseCallback function called");
+    console.log("designCloseCallback function called");
 }
